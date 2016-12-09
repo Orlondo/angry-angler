@@ -20,16 +20,22 @@ a {
 	text-decoration: underline;
 }
 
-div#slide-container {
-	height: 100%;
-	width: 3440px;
-}
-
 #slide-wrapper {
 	max-width: 860px;
-	max-height: 278px;
 	margin-left: 0px;
+	height: auto;
 	overflow: hidden;
+}
+
+div#slide-container {
+	height: auto;
+	width: 400%;
+	background-color: red;
+}
+
+div#slide-container > img {
+	height: auto;
+	width: 25%;
 }
 
 #slide1 {
