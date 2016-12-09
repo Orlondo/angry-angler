@@ -48,7 +48,7 @@ div.nav.back {
 }
 
 div.nav.back > span {
-	color: rgba(255, 255, 255, 0.5);
+	color: rgba(255, 255, 255, 0.0);
 }
 
 div.nav.next {
