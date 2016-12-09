@@ -1,10 +1,6 @@
 
-/* Customize container */
-@media (min-width: 900px) {
-  .container {
-  	margin-top: 30px;
-    max-width: 890px;
-  }
+.container {
+	margin-top: 2%;
 }
 
 img {
@@ -38,22 +34,6 @@ div#slide-container > img {
 	width: 25%;
 }
 
-#slide1 {
-	margin-top: -230px
-}
-
-#slide2 {
-	margin-top: -27px
-}
-
-#slide3 {
-	margin-top: -274px
-}
-
-#slide4 {
-	margin-top: 0px
-}
-
 div.nav {
 	position: absolute;
 	width: 40px;
@@ -72,43 +52,6 @@ div.nav.next {
 	right: 0px;
 	top: 40%;
 	border-radius: 40px 0px 0px 40px;
-}
-
-@media (min-width: 992px) {
-	.col1 {
-		margin-right: 10px;
-	}
-
-	.col2 {
-		margin-right: 10px;
-		margin-left: 10px;
-	}
-
-	.col3 {
-		margin-left: 10px;
-	}
-	.col-md-4 {
-	    width: 31.76%;
-	}	
-
-	div.nav.back {
-		left: -40px;
-		border-radius: 40px 0px 0px 40px;
-	}
-
-	div.nav.next {
-		right: -40px;
-		border-radius: 0px 40px 40px 0px;
-	}
-
-	.glyphicon-arrow-left {
-		left: 15px;
-	}
-
-	.glyphicon-arrow-right {
-		left: 10px;
-	}
-
 }
 
 #bg-img {
@@ -153,6 +96,48 @@ div.content > div > div > h2 {
 
 .glyphicon-arrow-right {
 	left: 15px;
+}
+
+@media (min-width: 992px) {
+	.container {
+		margin-top: 25px;
+		max-width: 890px;
+	}
+
+	.col1 {
+		margin-right: 10px;
+	}
+
+	.col2 {
+		margin-right: 10px;
+		margin-left: 10px;
+	}
+
+	.col3 {
+		margin-left: 10px;
+	}
+	.col-md-4 {
+	    width: 31.76%;
+	}	
+
+	div.nav.back {
+		left: -40px;
+		border-radius: 40px 0px 0px 40px;
+	}
+
+	div.nav.next {
+		right: -40px;
+		border-radius: 0px 40px 40px 0px;
+	}
+
+	.glyphicon-arrow-left {
+		left: 15px;
+	}
+
+	.glyphicon-arrow-right {
+		left: 10px;
+	}
+
 }
 
 
