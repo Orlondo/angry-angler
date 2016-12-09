@@ -1,4 +1,6 @@
-
+body {
+	background-color: #f8f9f5;
+}
 .container {
 	margin-top: 2%;
 }
