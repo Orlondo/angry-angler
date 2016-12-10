@@ -41,7 +41,7 @@ obj.banner = (function() {
 		}
 
 		if( currentImage !== imgXPos.length - 1) {
-			arrowLT.style.opacity = "1";
+			arrowRT.style.opacity = "1";
 		} else {
 			arrowRT.style.opacity = "0";
 		}
