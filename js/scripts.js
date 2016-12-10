@@ -35,13 +35,13 @@ obj.banner = (function() {
 		var arrowRT = next.querySelector('span');
 
 		if( currentImage !== 0) {
-			arrowLT.style.color = "#fff";
+			arrowLT.style.opacity = "1";
 		} else {
 			arrowLT.style.opacity = "0";
 		}
 
 		if( currentImage !== imgXPos.length - 1) {
-			arrowRT.style.color = "#fff";
+			arrowLT.style.opacity = "1";
 		} else {
 			arrowRT.style.opacity = "0";
 		}
