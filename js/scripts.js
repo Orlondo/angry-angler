@@ -37,13 +37,13 @@ obj.banner = (function() {
 		if( currentImage !== 0) {
 			arrowLT.style.color = "#fff";
 		} else {
-			arrowLT.style.color = "rgba(255,255,255,0.0)";
+			arrowLT.style.opacity = "0";
 		}
 
 		if( currentImage !== imgXPos.length - 1) {
 			arrowRT.style.color = "#fff";
 		} else {
-			arrowRT.style.color = "rgba(255,255,255,0.0)";
+			arrowRT.style.opacity = "0";
 		}
 
 	}
