@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # angry-angler
 =======
 # README #
@@ -30,4 +29,3 @@ This README would normally document whatever steps are necessary to get your app
 
 * Repo owner or admin
 * Other community or team contact
->>>>>>> 741d4b1cb11b1a133d1e00c00d1f6c1e08a5f53a
